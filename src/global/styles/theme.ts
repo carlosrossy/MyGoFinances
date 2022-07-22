@@ -12,6 +12,7 @@ export default {
         attention_ligth: "rgba(232,63,91,0.5)",
 
         shape: "#FFFFFF",
+        text_dark: "#000000",
         title: "#363F5F",
         Text: "#969CB2",
         background: "#F0F2F5"
