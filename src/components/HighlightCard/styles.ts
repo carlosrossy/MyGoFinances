@@ -27,7 +27,7 @@ export const Header = styled.View`
 
 export const Title = styled.Text<TypeProps>`
     font-family: ${({ theme }) => theme.fonts.medium};
-    font-size : ${RFValue(14)}px;
+    font-size : ${RFValue(16)}px;
 
     color: ${({ theme, type }) =>
         type === 'total'
@@ -76,3 +76,4 @@ export const LastTransaction = styled.Text<TypeProps>`
             : theme.colors.Text};
 
 `;
+
